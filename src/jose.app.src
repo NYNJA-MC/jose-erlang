@@ -1,0 +1,10 @@
+%% -*- mode:erlang; erlang-indent-level: 4; indent-tabs-mode: nil -*-
+{application, jose,
+ [
+  {description, "Simple and fast JOSE library"},
+  {vsn, git},
+  {registered, []},
+  {applications, [kernel,stdlib,crypto,public_key,base64url,jsx]},
+  {mod, {jose_app, []}},
+  {env, []}
+ ]}.

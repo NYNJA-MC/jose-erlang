@@ -21,3 +21,6 @@ erl_crash.dump
 *.d
 *.plt
 
+# rebar3
+.rebar3
+_build
